@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".Main2Activity">
+
+    <ScrollView
+            android:layout_width="304dp"
+            android:layout_height="510dp" tools:layout_editor_absoluteY="171dp"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp" app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp" app:layout_constraintHorizontal_bias="0.747" android:id="@+id/scrollView2">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                      android:orientation="vertical"/>
+    </ScrollView>
+    <TextView
+            android:text="Quetzaltenango es una ciudad guatemalteca ubicada en el departamento del mismo nombre. Así mismo, es la segunda ciudad más importante de Guatemala, a 206 km al noroeste de la Ciudad de Guatemala.4​ La ciudad se encuentra ubicada en un valle montañoso en el altiplano occidental de Guatemala con una altitud media sobre el nivel del mar de 2333 msnm. Cuenta con una población de 300 000 habitantes.  Quetzaltenango cuenta con diversos centros educativos, como algunas de las universidades más reconocidas del país. Es la ciudad con la mayor cantidad de centros educativos por habitante por su ubicación estratégica, ya que la mayoría de sus estudiantes no son oriundos de la ciudad, sino de pueblos cercanos."
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" tools:layout_editor_absoluteY="274dp"
+            tools:layout_editor_absoluteX="41dp" android:id="@+id/textView3"/>
+    <TextView
+            android:text="TextView"
+            android:layout_width="376dp"
+            android:layout_height="123dp" tools:layout_editor_absoluteY="48dp"
+            tools:layout_editor_absoluteX="4dp" android:id="@+id/textView4" android:background="@color/colorPrimary"/>
+</android.support.constraint.ConstraintLayout>

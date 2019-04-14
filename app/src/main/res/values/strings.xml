@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Nuevo Nombre</string>
+    <string name="ingresar">Ingresar</string>
+    <string name="guate1">Xela</string>
+    <string name="guate2">Peten</string>
+    <string name="guate3">Zacapa</string>
+    <string name="escriba">escriba</string>
+    <string name="Me">Me Encanta Este Lugar</string>
+
+</resources>
